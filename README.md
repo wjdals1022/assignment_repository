@@ -3,6 +3,7 @@
 1. Q-learning 및 Sarse Update 코드 작성
 
 (1). Q-learning 
+
 from collections import defaultdict
 import numpy as np
 class QLearning:
@@ -24,6 +25,7 @@ class QLearning:
         ##############################################################
 
 (2). SARAS
+
 from collections import defaultdict
 import numpy as np
 class SARSA:
