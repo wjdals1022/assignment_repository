@@ -2,7 +2,7 @@
 
 1. Q-learning 및 Sarse Update 코드 작성
 
-(1). Q-learning 
+##(1). Q-learning 
 
 
         ################## write code ################################
@@ -16,7 +16,8 @@
         self.q_values[state][action] += self.alpha * td_error
         ##############################################################
         
-{s:np.round(q, 5).tolist() for s, q in agent.q_values.items()}
+###{s:np.round(q, 5).tolist() for s, q in agent.q_values.items()}
+
 {0: [0.03591, 0.03582, 0.04015],
  3: [0.03229, 0.03238, 0.03694],
  12: [0.06365, 0.06374, 0.07088],
@@ -35,7 +36,7 @@
  45: [0.0, 0.0, 0.0]}
 
  
-(2). SARAS
+##(2). SARAS
 
         ################ Write Code #####################
         # Get the Q-value for the next state-action pair
@@ -48,7 +49,8 @@
         self.q_values[state][action] += self.alpha * td_error
         #################################################
         
-{s:np.round(q, 5).tolist() for s, q in agent.q_values.items()}
+###{s:np.round(q, 5).tolist() for s, q in agent.q_values.items()}
+
 {0: [0.02611, 0.02623, 0.03145],
  12: [0.04818, 0.04822, 0.05413],
  24: [0.06594, 0.06624, 0.07717],
